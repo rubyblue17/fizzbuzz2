@@ -1,5 +1,7 @@
+$(document).ready(function(){
 
 var userChoice = prompt("Pick a number between 1 and 100");
+
 
     for (var i = 1; i <= userChoice; i++) {
         if (i % 3 === 0 && i % 5 === 0){
@@ -14,13 +16,10 @@ var userChoice = prompt("Pick a number between 1 and 100");
             $("#output-list").append("<li><h3> Buzz </h3></li>")
         }
 
-
         else{
             $("#output-list").append("<li><h4>"+ i +"</h4></li>")
         }
     };
 
-$(document).ready(function(){
-userChoice();
-};
+});
 
