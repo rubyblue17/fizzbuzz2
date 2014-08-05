@@ -1,0 +1,67 @@
+body {
+	background: #eee;
+}
+
+#input_box {
+	background: thistle;
+	width: 500px;
+	height: 100%;
+	margin: 30px auto;
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+
+#input_box h1 {
+	font-family: Arial, sans serif;
+	font-style: 28px;
+	color: cornflowerblue;
+	text-align: center;
+	margin: 70px 0 0 0;
+
+}
+
+#input_box h2 {
+	font-family: Arial, sans serif;
+	font-style: 18px;
+	color: #fff;
+	text-align: center;
+
+}
+
+
+#output-list h1 {
+	font-family: Arial, sans serif;
+	font-style: 18px;
+	color: cornflowerblue;
+	text-align: left;
+	margin: 4px 0 4px 20px;
+
+}
+
+#output-list h2 {
+	font-family: Arial, sans serif;
+	font-style: 18px;
+	color: yellow;
+	text-align: left;
+	margin: 0px 0 0px 20px;
+
+}
+
+#output-list h3 {
+	font-family: Arial, sans serif;
+	font-style: 18px;
+	color: red;
+	text-align: left;
+	margin: 0px 0 0px 20px;
+
+}
+
+#output-list h4 {
+	font-family: Arial, sans serif;
+	font-style: 18px;
+	color: #fff;
+	text-align: left;
+	margin: 0px 0 0px 20px;
+
+}
+
