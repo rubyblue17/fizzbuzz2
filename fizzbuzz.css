@@ -1,67 +1,75 @@
 body {
-	background: #eee;
+	background: #fff;
+	
 }
 
-#input_box {
-	background: thistle;
-	width: 500px;
-	height: 100%;
-	margin: 30px auto;
+#input_box{
+	background: lightblue;
+	width: 40%;
+	position: absolute;
+	margin-left: 30%;
+	top: 0;
 	text-align: center;
-	padding: 40px 0 40px 0;
+	padding: 0px 0 40px 0;
+		box-shadow: 0 0 10px #bbb;
+	-moz-box-shadow: 0 0 10px #bbb;	
+	border: 1px solid #bbb;
+	border-top: 0px solid !important;
+
 }
 
-#input_box h1 {
+
+
+h1#page-heading {
 	font-family: Arial, sans serif;
-	font-style: 28px;
+	font-size: 38px;
 	color: cornflowerblue;
 	text-align: center;
-	margin: 70px 0 0 0;
+	margin: 40px auto;
+	text-decoration:overline;
 
-}
-
-#input_box h2 {
-	font-family: Arial, sans serif;
-	font-style: 18px;
-	color: #fff;
-	text-align: center;
 
 }
 
 
-#output-list h1 {
+h1 {
 	font-family: Arial, sans serif;
-	font-style: 18px;
-	color: cornflowerblue;
+	font-size: 18px;
+	color: MediumVioletRed;
+	margin-left: 35%;
+	margin-bottom: 4px;
+	margin-top: 4px;
 	text-align: left;
-	margin: 4px 0 4px 20px;
+	width: 150px;
 
 }
 
-#output-list h2 {
+h2 {
 	font-family: Arial, sans serif;
-	font-style: 18px;
-	color: yellow;
+	font-size: 18px;
+	color: maroon;
+	margin-left: 35%;
 	text-align: left;
-	margin: 0px 0 0px 20px;
+	width: 150px;
+
 
 }
 
-#output-list h3 {
+h3 {
 	font-family: Arial, sans serif;
-	font-style: 18px;
-	color: red;
+	font-size: 18px;
+	color: firebrick;
+	margin-left: 35%;
 	text-align: left;
-	margin: 0px 0 0px 20px;
 
 }
 
-#output-list h4 {
+h4 {
 	font-family: Arial, sans serif;
-	font-style: 18px;
-	color: #fff;
+	font-size: 18px;
+	color: #333;
+	margin-left: 35%;
 	text-align: left;
-	margin: 0px 0 0px 20px;
 
 }
 
