@@ -49,7 +49,8 @@ var userChoice = prompt("Pick a number between 1 and 1,000");
 	}
 
   else {
-        alert("Try again. Please refresh your browser and enter a whole number between 1 and 1,000 (no decimals)"); 
+        alert("Try again!"); 
+        location.reload();
         
       };
 
